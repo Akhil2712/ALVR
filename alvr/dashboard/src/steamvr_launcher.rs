@@ -9,7 +9,7 @@ use std::{
     thread,
     time::{Duration, Instant},
 };
-use sysinfo::{ProcessExt, ProcessRefreshKind, RefreshKind, System, SystemExt};
+use sysinfo::{ProcessRefreshKind, RefreshKind, System};
 
 #[cfg(windows)]
 use sysinfo::PidExt;
